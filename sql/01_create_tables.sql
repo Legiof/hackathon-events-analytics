@@ -1,8 +1,8 @@
 -- Создание основной таблицы для анализа хакатонов и IT-мероприятий
 
-DROP TABLE IF EXISTS real_events;
+DROP TABLE IF EXISTS it_events;
 
-CREATE TABLE real_events (
+CREATE TABLE it_events (
     event_id SERIAL PRIMARY KEY,
     event_name VARCHAR(255) NOT NULL,
     event_type VARCHAR(100),
